@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Tower Defense</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div id="start_screen">
+        <h3>Tower Defense</h3>
+        <span>Choose a level</span>
+        <div id="level_select">
+            <button class="level_selection" data-type="1">Level 1</button>
+            <button class="level_selection" data-type="2">Level 2</button>
+            <button class="level_selection" data-type="3">Level 3</button>
+            <button class="level_selection" data-type="0">Coming soon</button>
+            <button class="level_selection" data-type="0">Coming soon</button>
+            <button class="level_selection" data-type="0">Coming soon</button>
+            
+        </div>
+    </div>
+
+
+    <div id="hud" style="display:none">
+        <div id="money">money: $100</div>
+        <div id="level">Level <span id="level_nr"></span> — <span id="level_status">Preparation Stage: </span><span id="timer">00:30</span></div>
+    </div>
+    <canvas id="canvas" style="display:none"></canvas>
+    <div id="tower_menu" style="display:none">
+        <button class="tower" data-type="arrow">Arrow - $50</button>
+        <button class="tower" data-type="cannon">Cannon - $100</button>
+        <button class="tower" data-type="ice">Elemental - $75</button>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

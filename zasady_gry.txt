@@ -1,0 +1,4 @@
+Przeciwnicy nadchodza z lewej strony, jeśli przejdą na stronę prawą - tracimy 1 punkt zdrowia. 
+Jeśli stracimy 5 pkt zdrowia, gracz przegrywa.
+
+Aby postawić wieżę, należy kliknąć w ciemno-zielone pole.
